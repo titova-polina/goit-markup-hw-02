@@ -1,6 +1,7 @@
 body {
 	background-color: var(--color-white);
 	font-family: Roboto, Raleway, sans-serif;
+	color: var(--color-background);
 }
 
 :root {
@@ -76,6 +77,11 @@ body {
 	letter-spacing: 0.02em;
 	color: #434455;
 	text-decoration: none;
+}
+
+.address-link:hover,
+.address-link:focus {
+	color: var(--color-logo);
 }
 
 .hero {
